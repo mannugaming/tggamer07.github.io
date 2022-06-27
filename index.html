@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TG Gamer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="img/logp.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="https://youtube.com/channel/UCY8YimgVarDYWlan1WMcxmg">Youtube Channel</a></li>
+                    <li><a href="https://youtu.be/tF9IAxZbEBM">Gameplay</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="index2.html">Information</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" class="menu-icon" 
+            onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>TG GAMER<br>Free Fire Gameplay</h2>
+                <h3>Dare to play exclusive deadly solo vs squad</h3>
+                <p>Hello guys i am Tanish and i play and stream free fire on my gaming youtube channel. I prefer to play montage solo vs squad and also like to share tips and tricks regarding youtube video editing and thumbnail making. I generally upload short videos daily on heatshot tricks and also bring interesting updates for you guys.</p>
+                <h4>#1 Trending</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.dts.freefiremax&hl=en_IN&gl=US" target="main"><button type="button">Play Now<img src="img/arrow.png"></button></a>
+            </div>
+             <div class="col-2">
+                <img src="img/gg1.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <a href="https://youtu.be/tF9IAxZbEBM"><img src="img/play2.png"></a>
+                    <p><small>Watch Gameplay</small></p>
+                </div>
+            </div>
+        </div>
+    
+    <div class="social-links">
+        <a href="https://apps.apple.com/us/app/garena-free-fire-max/id1480516829" target="main"><img src="img/app.png"></a>
+        <a href="https://youtube.com/channel/UCY8YimgVarDYWlan1WMcxmg" target=main><img src="img/yt.png"></a>
+        <a href="https://www.instagram.com/" target=main><img src="img/ig.png"></a>
+    </div>
+
+      <script>
+
+          var menuList = document.getElementById("menuList");
+
+          menuList.style.maxHeight = "0px";
+
+          function togglemenu(){
+
+               if(menuList.style.maxHeight == "0px")
+                   {
+                        menuList.style.maxHeight = "130px";
+                   }
+               else
+                   {  
+                        menuList.style.maxHeight = "0px";
+                   }    
+           }
+       </script>
+    
+  
+    
+
+</body>
+</html>
